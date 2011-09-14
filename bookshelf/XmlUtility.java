@@ -41,8 +41,6 @@ import org.xml.sax.helpers.DefaultHandler;
 /**
  * Wrapper class for XML API validation and parsing methods.
  * 
- * @author Justin Manweiler
- * @author Ben Zoller
  */
 public class XmlUtility {
 
