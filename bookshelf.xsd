@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- simple types -->
+  <xs:simpleType name="bookType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="fiction"/>
+      <xs:enumeration value="nonfiction"/>
+      <xs:enumeration value="starWars"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="bookMedium">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="book"/>
+      <xs:enumeration value="comic"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="yearType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]+(-[0-9]+)?"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- complex types -->
+  <xs:complexType name="person">
+    <xs:sequence>
+      <xs:element name="first" type="xs:string" minOccurs="0"/>
+      <xs:element name="last" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- attributes -->
+  <xs:attributeGroup name="bookAtts">
+    <xs:attribute name="type" type="bookType" use="required"/>
+    <xs:attribute name="signed" type="xs:string" use="optional"/>
+    <xs:attribute name="medium" type="bookMedium" use="required"/>
+  </xs:attributeGroup>
+
+  <!-- elements -->
+  <xs:element name="book">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="series" type="xs:string" minOccurs="0"/>
+        <xs:element name="issue" type="xs:string" minOccurs="0"/>
+        <xs:element ref="authors" minOccurs="0"/>
+        <xs:choice>
+          <xs:element name="year" type="yearType"/>
+          <xs:element ref="contains" minOccurs="0"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attributeGroup ref="bookAtts" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="authors">
+    <xs:complexType>
+      <xs:choice>
+        <xs:sequence maxOccurs="unbounded">
+          <xs:element name="author" type="person"/>
+        </xs:sequence>
+        <xs:sequence maxOccurs="unbounded">
+          <xs:element name="editor" type="person"/>
+        </xs:sequence>
+        </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="contains">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="book"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="bookshelf">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="book" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

@@ -1,0 +1,11 @@
+
+a:hover { color: #FF0000 }
+a { color: #0000FF; text-decoration: none }
+body { margin-left: 30px; }
+#construction { color: #FF0000; }
+#footer { font-size: small; }
+h1.ctr, p.ctr { text-align: center }
+img.ctr { display: block; margin-left: auto; margin-right: auto; border-style: solid; border-width: thin}
+embed.ctr { display: block; margin-left: auto; margin-right: auto }
+table.ctr { margin-left: auto; margin-right: auto }
+p.margin { margin-left: 3cm; margin-right: 3cm }

@@ -1,0 +1,2320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookshelf.xsl.xml"?>
+
+<bookshelf>
+
+  <book medium="book" type="fiction">
+    <title>101 Great American Poems</title>
+    <year>1998</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Doc Sidhe</title>
+    <authors>
+      <author>
+        <first>Aaron</first>
+        <last>Allston</last>
+      </author>
+    </authors>
+    <year>1995</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Sidhe-Devil</title>
+    <authors>
+      <author>
+        <first>Aaron</first>
+        <last>Allston</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Dr Katz. Professional Therapist: Hey I've Got My Own Problems</title>
+    <authors>
+      <author>
+        <first>Bill</first>
+        <last>Braudis</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Ender's Game</title>
+    <authors>
+      <author>
+        <first>Orson Scott</first>
+        <last>Card</last>
+      </author>
+    </authors>
+    <year>1985</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Speaker for the Dead</title>
+    <authors>
+      <author>
+        <first>Orson Scott</first>
+        <last>Card</last>
+      </author>
+    </authors>
+    <year>1986</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Xenocide</title>
+    <authors>
+      <author>
+        <first>Orson Scott</first>
+        <last>Card</last>
+      </author>
+    </authors>
+    <year>1991</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Children of the Mind</title>
+    <authors>
+      <author>
+        <first>Orson Scott</first>
+        <last>Card</last>
+      </author>
+    </authors>
+    <year>1996</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Ender's Shadow</title>
+    <authors>
+      <author>
+        <first>Orson Scott</first>
+        <last>Card</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Shadow of the Hegemon</title>
+    <authors>
+      <author>
+        <first>Orson Scott</first>
+        <last>Card</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Shadow Puppets</title>
+    <authors>
+      <author>
+        <first>Orson Scott</first>
+        <last>Card</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Alice's Adventures in Wonderland &amp; Through the Looking-Glass</title>
+    <authors>
+      <author>
+        <first>Lewis</first>
+        <last>Carroll</last>
+      </author>
+    </authors>
+    <contains>
+      <book medium="book" type="fiction">
+        <title>Alice's Adventures in Wonderland</title>
+        <year>1865</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Through the Looking-Glass</title>
+        <year>1871</year>
+      </book>
+    </contains>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>University2: The Angry Years</title>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Cho</last>
+      </author>
+    </authors>
+    <year>1996</year>
+  </book>
+
+  <book medium="comic" signed="several signed" type="fiction">
+    <title>Liberty Meadows</title>
+    <issue>#1-33</issue>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Cho</last>
+      </author>
+    </authors>
+    <year>1997-2003</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Heart of Darkness</title>
+    <authors>
+      <author>
+        <first>Joseph</first>
+        <last>Conrad</last>
+      </author>
+    </authors>
+    <year>1899</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Open Boat and Other Stories</title>
+    <authors>
+      <author>
+        <first>Stephen</first>
+        <last>Crane</last>
+      </author>
+    </authors>
+    <contains>
+      <book medium="book" type="fiction">
+        <title>Maggie: A Girl of the Streets</title>
+        <year>1893</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Open Boat</title>
+        <year>1897</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Bride Comes to Yellow Sky</title>
+        <year>1898</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Blue Hotel</title>
+        <year>1898</year>
+      </book>
+    </contains>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Uncle Sam</title>
+    <issue>collects #1-2</issue>
+    <authors>
+      <author>
+        <first>Steve</first>
+        <last>Darnall</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Complete Sherlock Holmes Vol. 1</title>
+    <authors>
+      <author>
+        <first>Sir Arthur Conan</first>
+        <last>Doyle</last>
+      </author>
+    </authors>
+    <contains>
+      <book medium="book" type="fiction">
+        <title>A Study in Scarlet</title>
+        <year>1887</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Sign of Four</title>
+        <year>1890</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Adventures of Sherlock Holmes</title>
+        <year>1891</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Memoirs of Sherlock Holmes</title>
+        <year>1892</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Hound of the Baskervilles</title>
+        <year>1902</year>
+      </book>
+    </contains>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Complete Sherlock Holmes Vol. 2</title>
+    <authors>
+      <author>
+        <first>Sir Arthur Conan</first>
+        <last>Doyle</last>
+      </author>
+    </authors>
+    <contains>
+      <book medium="book" type="fiction">
+        <title>The Return of Sherlock Holmes</title>
+        <year>1905</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Valley of Fear</title>
+        <year>1915</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>His Last Bow</title>
+        <year>1917</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Case Book of Sherlock Holmes</title>
+        <year>1927</year>
+      </book>
+    </contains>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Carnivores of Light and Darkness</title>
+    <authors>
+      <author>
+        <first>Alan Dean</first>
+        <last>Foster</last>
+      </author>
+    </authors>
+    <year>1998</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Good Omens</title>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>1990</year>
+  </book>
+
+  <book medium="comic" signed="signed" type="fiction">
+    <title>The Sandman: Season of Mists</title>
+    <series>Volume 4</series>
+    <issue>collects #21-28</issue>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>1990-1991</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Neverwhere</title>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Smoke and Mirrors</title>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>1998</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Stardust</title>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>American Gods</title>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="comic" signed="one signed" type="fiction">
+    <title>1602</title>
+    <issue>#7-8</issue>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>2003-2004</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Anansi Boys</title>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Simpsons: A Complete Guide to Our Favorite Family</title>
+    <authors>
+      <author>
+        <first>Matt</first>
+        <last>Groening</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Simpsons: A Complete Guide to Our Favorite Family ... Continued</title>
+    <authors>
+      <author>
+        <first>Matt</first>
+        <last>Groening</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Simpsons: A Complete Guide to Our Favorite Family ... Still Continued</title>
+    <authors>
+      <author>
+        <first>Matt</first>
+        <last>Groening</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Fuzzy Memories</title>
+    <authors>
+      <author>
+        <first>Jack</first>
+        <last>Handey</last>
+      </author>
+    </authors>
+    <year>1996</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Catch-22</title>
+    <authors>
+      <author>
+        <first>Joseph</first>
+        <last>Heller</last>
+      </author>
+    </authors>
+    <year>1955</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Dune</title>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Herbert</last>
+      </author>
+    </authors>
+    <year>1965</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Dune Messiah</title>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Herbert</last>
+      </author>
+    </authors>
+    <year>1969</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Children of Dune</title>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Herbert</last>
+      </author>
+    </authors>
+    <year>1976</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>God Emperor of Dune</title>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Herbert</last>
+      </author>
+    </authors>
+    <year>1981</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Heretics of Dune</title>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Herbert</last>
+      </author>
+    </authors>
+    <year>1984</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Chapterhouse: Dune</title>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Herbert</last>
+      </author>
+    </authors>
+    <year>1985</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Batman: The Dark Knight Returns</title>
+    <issue>collects #1-4</issue>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Miller</last>
+      </author>
+    </authors>
+    <year>1986</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Batman: Year One</title>
+    <issue>collects Batman #404-407</issue>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Miller</last>
+      </author>
+    </authors>
+    <year>1987</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Sin City: The Hard Goodbye</title>
+    <series>Book 1</series>
+    <issue>collects #1-9</issue>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Miller</last>
+      </author>
+    </authors>
+    <year>1991-1992</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Sin City: A Dame to Kill For</title>
+    <series>Book 2</series>
+    <issue>collects #1-6</issue>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Miller</last>
+      </author>
+    </authors>
+    <year>1993-1994</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Sin City: That Yellow Bastard</title>
+    <series>Book 4</series>
+    <issue>collects #1-6</issue>
+    <authors>
+      <author>
+        <first>Frank</first>
+        <last>Miller</last>
+      </author>
+    </authors>
+    <year>1996-1997</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Watchmen</title>
+    <issue>collects #1-12</issue>
+    <authors>
+      <author>
+        <first>Alan</first>
+        <last>Moore</last>
+      </author>
+    </authors>
+    <year>1986-1987</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Top Ten: Book 1</title>
+    <issue>collects #1-7</issue>
+    <authors>
+      <author>
+        <first>Alan</first>
+        <last>Moore</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Death Rat</title>
+    <authors>
+      <author>
+        <first>Michael J.</first>
+        <last>Nelson</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Dispatches from the Tenth Circle</title>
+    <authors>
+      <author>
+        <first>The</first>
+        <last>Onion</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Ad Nauseam: Volume 13</title>
+    <authors>
+      <author>
+        <first>The</first>
+        <last>Onion</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Harry Potter and the Sorceror's Stone</title>
+    <series>Year 1</series>
+    <authors>
+      <author>
+        <first>J.K.</first>
+        <last>Rowling</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Harry Potter and the Chamber of Secrets</title>
+    <series>Year 2</series>
+    <authors>
+      <author>
+        <first>J.K.</first>
+        <last>Rowling</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Harry Potter and the Half-Blood Prince</title>
+    <series>Year 6</series>
+    <authors>
+      <author>
+        <first>J.K.</first>
+        <last>Rowling</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>SeinLanguage</title>
+    <authors>
+      <author>
+        <first>Jerry</first>
+        <last>Seinfeld</last>
+      </author>
+    </authors>
+    <year>1993</year>
+  </book>
+
+  <book medium="comic" signed="signed" type="fiction">
+    <title>Cerebus: Mothers and Daughters</title>
+    <issue>#17</issue>
+    <authors>
+      <author>
+        <first>Dave</first>
+        <last>Sim</last>
+      </author>
+    </authors>
+    <year>1993</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Iron Dawn</title>
+    <authors>
+      <author>
+        <first>Matthew Woodring</first>
+        <last>Stover</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Jericho Moon</title>
+    <authors>
+      <author>
+        <first>Matthew Woodring</first>
+        <last>Stover</last>
+      </author>
+    </authors>
+    <year>1998</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Heroes Die</title>
+    <authors>
+      <author>
+        <first>Matthew Woodring</first>
+        <last>Stover</last>
+      </author>
+    </authors>
+    <year>1998</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Blade of Tyshalle</title>
+    <authors>
+      <author>
+        <first>Matthew Woodring</first>
+        <last>Stover</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Battle Royale</title>
+    <authors>
+      <author>
+        <first>Houshun</first>
+        <last>Takami</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Hobbit</title>
+    <authors>
+      <author>
+        <first>J.R.R.</first>
+        <last>Tolkien</last>
+      </author>
+    </authors>
+    <year>1937</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Lord of the Rings: The Fellowship of the Ring</title>
+    <authors>
+      <author>
+        <first>J.R.R.</first>
+        <last>Tolkien</last>
+      </author>
+    </authors>
+    <year>1955</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Lord of the Rings: The Two Towers</title>
+    <authors>
+      <author>
+        <first>J.R.R.</first>
+        <last>Tolkien</last>
+      </author>
+    </authors>
+    <year>1955</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Lord of the Rings: The Return of the King</title>
+    <authors>
+      <author>
+        <first>J.R.R.</first>
+        <last>Tolkien</last>
+      </author>
+    </authors>
+    <year>1955</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Legends: Tales from the Eternal Archives #1</title>
+    <authors>
+      <editor>
+        <first>Margaret</first>
+        <last>Weis</last>
+      </editor>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Fables Vol. 2: Animal Farm</title>
+    <issue>collects #6-10</issue>
+    <authors>
+      <author>
+        <first>Bill</first>
+        <last>Willingham</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Lord of Light</title>
+    <authors>
+      <author>
+        <first>Roger</first>
+        <last>Zelazny</last>
+      </author>
+    </authors>
+    <year>1967</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Isle of the Dead</title>
+    <authors>
+      <author>
+        <first>Roger</first>
+        <last>Zelazny</last>
+      </author>
+    </authors>
+    <year>1969</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Great Book of Amber</title>
+    <authors>
+      <author>
+        <first>Roger</first>
+        <last>Zelazny</last>
+      </author>
+    </authors>
+    <contains>
+      <book medium="book" type="fiction">
+        <title>Nine Princes in Amber</title>
+        <year>1970</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Guns of Avalon</title>
+        <year>1972</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Sign of the Unicorn</title>
+        <year>1975</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Hand of Oberon</title>
+        <year>1976</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Courts of Chaos</title>
+        <year>1978</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Trumps of Doom</title>
+        <year>1985</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Blood of Amber</title>
+        <year>1986</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Sign of Chaos</title>
+        <year>1987</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Knight of Shadows</title>
+        <year>1989</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Prince of Chaos</title>
+        <year>1991</year>
+      </book>
+    </contains>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Heir to the Empire</title>
+    <authors>
+      <author>
+        <first>Timothy</first>
+        <last>Zahn</last>
+      </author>
+    </authors>
+    <year>1991</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Dark Force Rising</title>
+    <authors>
+      <author>
+        <first>Timothy</first>
+        <last>Zahn</last>
+      </author>
+    </authors>
+    <year>1992</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>The Last Command</title>
+    <authors>
+      <author>
+        <first>Timothy</first>
+        <last>Zahn</last>
+      </author>
+    </authors>
+    <year>1993</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Rogue Squadron</title>
+    <series>X-Wing, Book One</series>
+    <authors>
+      <author>
+        <first>Michael A.</first>
+        <last>Stackpole</last>
+      </author>
+    </authors>
+    <year>1996</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Wedge's Gamble</title>
+    <series>X-Wing, Book Two</series>
+    <authors>
+      <author>
+        <first>Michael A.</first>
+        <last>Stackpole</last>
+      </author>
+    </authors>
+    <year>1996</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>The Krytos Trap</title>
+    <series>X-Wing, Book Three</series>
+    <authors>
+      <author>
+        <first>Michael A.</first>
+        <last>Stackpole</last>
+      </author>
+    </authors>
+    <year>1996</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>The Bacta War</title>
+    <series>X-Wing, Book Four</series>
+    <authors>
+      <author>
+        <first>Michael A.</first>
+        <last>Stackpole</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Specter of the Past</title>
+    <series>The Hand of Thrawn, Book 1</series>
+    <authors>
+      <author>
+        <first>Timothy</first>
+        <last>Zahn</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Wraith Squadron</title>
+    <series>X-Wing, Book Five</series>
+    <authors>
+      <author>
+        <first>Aaron</first>
+        <last>Allston</last>
+      </author>
+    </authors>
+    <year>1998</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>I, Jedi</title>
+    <authors>
+      <author>
+        <first>Michael A.</first>
+        <last>Stackpole</last>
+      </author>
+    </authors>
+    <year>1998</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Iron Fist</title>
+    <series>X-Wing, Book Six</series>
+    <authors>
+      <author>
+        <first>Aaron</first>
+        <last>Allston</last>
+      </author>
+    </authors>
+    <year>1998</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Vision of the Future</title>
+    <series>The Hand of Thrawn, Book 2</series>
+    <authors>
+      <author>
+        <first>Timothy</first>
+        <last>Zahn</last>
+      </author>
+    </authors>
+    <year>1998</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Solo Command</title>
+    <series>X-Wing, Book Seven</series>
+    <authors>
+      <author>
+        <first>Aaron</first>
+        <last>Allston</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Isard's Revenge</title>
+    <series>X-Wing, Book Eight</series>
+    <authors>
+      <author>
+        <first>Michael A.</first>
+        <last>Stackpole</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Starfighters of Adumar</title>
+    <series>X-Wing, Book Nine</series>
+    <authors>
+      <author>
+        <first>Aaron</first>
+        <last>Allston</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Vector Prime</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>R. A.</first>
+        <last>Salvatore</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Dark Tide I: Onslaught</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Michael A.</first>
+        <last>Stackpole</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Dark Tide II: Ruin</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Michael A.</first>
+        <last>Stackpole</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Agents of Chaos I: Hero's Trial</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>James</first>
+        <last>Luceno</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Agents of Chaos II: Jedi Eclipse</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>James</first>
+        <last>Luceno</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Balance Point</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Kathy</first>
+        <last>Tyers</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Darth Maul: Shadow Hunter</title>
+    <authors>
+      <author>
+        <first>Michael</first>
+        <last>Reaves</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Edge of Victory I: Conquest</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Greg</first>
+        <last>Keyes</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Edge of Victory II: Rebirth</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Greg</first>
+        <last>Keyes</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Star by Star</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Troy</first>
+        <last>Denning</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Dark Journey</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Elaine</first>
+        <last>Cunningham</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Enemy Lines I: Rebel Dream</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Aaron</first>
+        <last>Allston</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Enemy Lines II: Rebel Stand</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Aaron</first>
+        <last>Allston</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Traitor</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Matthew</first>
+        <last>Stover</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Destiny's Way</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Walter Jon</first>
+        <last>Williams</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Force Heretic I: Remnant</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Sean</first>
+        <last>Williams</last>
+      </author>
+      <author>
+        <first>Shane</first>
+        <last>Dix</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Force Heretic II: Refugee</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Sean</first>
+        <last>Williams</last>
+      </author>
+      <author>
+        <first>Shane</first>
+        <last>Dix</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Shatterpoint</title>
+    <series>Clone Wars</series>
+    <authors>
+      <author>
+        <first>Matthew</first>
+        <last>Stover</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>Force Heretic III: Reunion</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Sean</first>
+        <last>Williams</last>
+      </author>
+      <author>
+        <first>Shane</first>
+        <last>Dix</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>The Final Prophecy</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>Greg</first>
+        <last>Keyes</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="starWars">
+    <title>The Unifying Force</title>
+    <series>The New Jedi Order</series>
+    <authors>
+      <author>
+        <first>James</first>
+        <last>Luceno</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" signed="signed" type="starWars">
+    <title>Episode III: Revenge of the Sith</title>
+    <authors>
+      <author>
+        <first>Matthew</first>
+        <last>Stover</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="comic" type="starWars">
+    <title>Twilight</title>
+    <issue>Republic #19-22</issue>
+    <authors>
+      <author>
+        <first>John</first>
+        <last>Ostrander</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="comic" type="starWars">
+    <title>Darkness</title>
+    <issue>Republic #32-35</issue>
+    <authors>
+      <author>
+        <first>John</first>
+        <last>Ostrander</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="comic" type="starWars">
+    <title>The Devaronian Version</title>
+    <issue>Republic #40-41</issue>
+    <authors>
+      <author>
+        <first>John</first>
+        <last>Ostrander</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="comic" type="starWars">
+    <title>Rite of Passage</title>
+    <issue>Republic #42-45</issue>
+    <authors>
+      <author>
+        <first>John</first>
+        <last>Ostrander</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Computer Systems: A Programmer's Perspective</title>
+    <authors>
+      <author>
+        <first>Randal E.</first>
+        <last>Bryant</last>
+      </author>
+      <author>
+        <first>David R.</first>
+        <last>O'Hallaron</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Data Structures with C++ using STL</title>
+    <authors>
+      <author>
+        <first>William</first>
+        <last>Ford</last>
+      </author>
+      <author>
+        <first>William</first>
+        <last>Topp</last>
+      </author>
+    </authors>
+    <year>2002</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Differential Equations with Matlab</title>
+    <authors>
+      <author>
+        <first>Brian R.</first>
+        <last>Hunt</last>
+      </author>
+      <author>
+        <first>Ronald L.</first>
+        <last>Lipsman</last>
+      </author>
+      <author>
+        <first>John E.</first>
+        <last>Osborn</last>
+      </author>
+      <author>
+        <first>Jonathan M.</first>
+        <last>Rosenberg</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Elementary Differential Equations</title>
+    <authors>
+      <author>
+        <first>William E.</first>
+        <last>Boyce</last>
+      </author>
+      <author>
+        <first>Richard C.</first>
+        <last>DiPrima</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>How to Play Bass Guitar</title>
+    <authors>
+      <author>
+        <first>Laurence</first>
+        <last>Canty</last>
+      </author>
+    </authors>
+    <year>1984</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Linear Algebra and Its Applications</title>
+    <authors>
+      <author>
+        <first>David C.</first>
+        <last>Lay</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Programming Language Pragmatics</title>
+    <authors>
+      <author>
+        <first>Michael L.</first>
+        <last>Scott</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Star Wars: The Magic of Myth</title>
+    <authors>
+      <author>
+        <first>Mary</first>
+        <last>Henderson</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Conan: The Frost Giant's Daughter and Other Stories</title>
+    <series>Volume 1</series>
+    <issue>contains #0-7</issue>
+    <authors>
+      <author>
+        <first>Kurt</first>
+        <last>Busiek</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Coming of Conan the Cimmerian</title>
+    <authors>
+      <author>
+        <first>Robert E.</first>
+        <last>Howard</last>
+      </author>
+    </authors>
+    <contains>
+      <book medium="book" type="fiction">
+        <title>Cimmeria</title>
+        <year>1965</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Phoenix on the Sword</title>
+        <year>1932</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Frost-Giant's Daughter</title>
+        <year>1976</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The God in the Bowl</title>
+        <year>1975</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Tower of the Elephant</title>
+        <year>1933</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Scarlet Citadel</title>
+        <year>1933</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Queen of the Black Coast</title>
+        <year>1934</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Black Colossus</title>
+        <year>1933</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Iron Shadows in the Moon</title>
+        <year>1934</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Xuthal of the Dusk</title>
+        <year>1933</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Pool of the Black One</title>
+        <year>1933</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>Rogues in the House</title>
+        <year>1934</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Vale of Lost Women</title>
+        <year>1967</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Devil in Iron</title>
+        <year>1934</year>
+      </book>
+    </contains>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Mirrormask: The Illustrated Screenplay</title>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+      <author>
+        <first>Dave</first>
+        <last>McKean</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>This Immortal</title>
+    <authors>
+      <author>
+        <first>Roger</first>
+        <last>Zelazny</last>
+      </author>
+    </authors>
+    <year>1966</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Elementary Number Theory and Its Applications</title>
+    <authors>
+      <author>
+        <first>Kenneth H.</first>
+        <last>Rosen</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Analysis with an Introduction to Proof</title>
+    <authors>
+      <author>
+        <first>Steven R.</first>
+        <last>Lay</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>A Practical Introduction to Data Structures and Algorithm Analysis</title>
+    <authors>
+      <author>
+        <first>Clifford A.</first>
+        <last>Shaffer</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Design and Analysis of Spatial Data Structures</title>
+    <authors>
+      <author>
+        <first>Hanan</first>
+        <last>Samet</last>
+      </author>
+    </authors>
+    <year>2004</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>How To Survive a Robot Uprising</title>
+    <authors>
+      <author>
+        <first>Daniel H.</first>
+        <last>Wilson</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>V For Vendetta</title>
+    <issue>collects #1-10</issue>
+    <authors>
+      <author>
+        <first>Alan</first>
+        <last>Moore</last>
+      </author>
+    </authors>
+    <year>1988-1989</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>The Sandman: The Wake</title>
+    <series>Volume 10</series>
+    <issue>collects #70-75</issue>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>1995-1996</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Wasp</title>
+    <authors>
+      <author>
+        <first>Eric Frank</first>
+        <last>Russell</last>
+      </author>
+    </authors>
+    <year>1957</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Peanuts: It's a Dog's Life, Snoopy</title>
+    <issue>collects 1998 strips</issue>
+    <authors>
+      <author>
+        <first>Charles M.</first>
+        <last>Schulz</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Probability and Statistics for Engineering and the Sciences</title>
+    <authors>
+      <author>
+        <first>Jay L.</first>
+        <last>Devore</last>
+      </author>
+    </authors>
+    <year>2004</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Advanced Calculus</title>
+    <authors>
+      <author>
+        <first>Patrick M.</first>
+        <last>Fitzpatrick</last>
+      </author>
+    </authors>
+    <year>2006</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>History of Italian Renaissance Art</title>
+    <authors>
+      <author>
+        <first>Frederick</first>
+        <last>Hartt</last>
+      </author>
+      <author>
+        <first>David G.</first>
+        <last>Wilkins</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Artificial Intelligence: A Modern Approach</title>
+    <authors>
+      <author>
+        <first>Stuart</first>
+        <last>Russell</last>
+      </author>
+      <author>
+        <first>Peter</first>
+        <last>Norvig</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>My Life</title>
+    <authors>
+      <author>
+        <first>Benvenuto</first>
+        <last>Cellini</last>
+      </author>
+    </authors>
+    <year>1558-1566</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>A Short Guide To Writing About Art</title>
+    <authors>
+      <author>
+        <first>Sylvan</first>
+        <last>Barnet</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>The Renaissance Artist at Work: From Pisano to Titian</title>
+    <authors>
+      <author>
+        <first>Bruce</first>
+        <last>Cole</last>
+      </author>
+    </authors>
+    <year>1983</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Conan: The God in the Bowl and Other Stories</title>
+    <series>Volume 2</series>
+    <issue>contains #7-14</issue>
+    <authors>
+      <author>
+        <first>Kurt</first>
+        <last>Busiek</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Sleepwalk and Other Stories</title>
+    <authors>
+      <author>
+        <first>Adrian</first>
+        <last>Tomine</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>For Whom the Bell Tolls</title>
+    <authors>
+      <author>
+        <first>Ernest</first>
+        <last>Hemingway</last>
+      </author>
+    </authors>
+    <year>1940</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>How Would You Move Mount Fuji? Microsoft's Cult of the Puzzle</title>
+    <authors>
+      <author>
+        <first>William</first>
+        <last>Poundstone</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>The Hero With a Thousand Faces</title>
+    <authors>
+      <author>
+        <first>Joseph</first>
+        <last>Campbell</last>
+      </author>
+    </authors>
+    <year>1968</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>The Sexuality of Christ in Renaissance Art and in Modern Oblivion</title>
+    <authors>
+      <author>
+        <first>Leo</first>
+        <last>Steinberg</last>
+      </author>
+    </authors>
+    <year>1983</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Lies of Locke Lamora</title>
+    <authors>
+      <author>
+        <first>Scott</first>
+        <last>Lynch</last>
+      </author>
+    </authors>
+    <year>2006</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Star Wars on Trial</title>
+    <authors>
+      <author>
+        <first>Matthew Woodring</first>
+        <last>Stover</last>
+      </author>
+      <author>
+        <first>David</first>
+        <last>Brin</last>
+      </author>
+    </authors>
+    <year>2006</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Head First Design Patterns</title>
+    <authors>
+      <author>
+        <first>Eric</first>
+        <last>Freeman</last>
+      </author>
+      <author>
+        <first>Elisabeth</first>
+        <last>Freeman</last>
+      </author>
+      <author>
+        <first>Kathy</first>
+        <last>Sierra</last>
+      </author>
+      <author>
+        <first>Bert</first>
+        <last>Bates</last>
+      </author>
+    </authors>
+    <year>2004</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Win32 System Programming: A Windows 2000 Application Developer's Guide</title>
+    <authors>
+      <author>
+        <first>Johnson M.</first>
+        <last>Hart</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>XML Pocket Reference</title>
+    <authors>
+      <author>
+        <first>Simon</first>
+        <last>St.Laurent</last>
+      </author>
+      <author>
+        <first>Michael</first>
+        <last>Fitzgerald</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Last Good Kiss</title>
+    <authors>
+      <author>
+        <first>James</first>
+        <last>Crumley</last>
+      </author>
+    </authors>
+    <year>1978</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Big Sleep</title>
+    <authors>
+      <author>
+        <first>Raymond</first>
+        <last>Chandler</last>
+      </author>
+    </authors>
+    <year>1939</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Introduction to Scientific Computing</title>
+    <authors>
+      <author>
+        <first>Charles F.</first>
+        <last>Van Loan</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Introduction to Cryptography with Coding Theory</title>
+    <authors>
+      <author>
+        <first>Wade</first>
+        <last>Trappe</last>
+      </author>
+      <author>
+        <first>Lawrence</first>
+        <last>Washington</last>
+      </author>
+    </authors>
+    <year>2006</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>On Painting</title>
+    <authors>
+      <author>
+        <first>Leon Battista</first>
+        <last>Alberti</last>
+      </author>
+    </authors>
+    <year>1972</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Painting and Experience in Fifteenth-Century Italy</title>
+    <authors>
+      <author>
+        <first>Michael</first>
+        <last>Baxandall</last>
+      </author>
+    </authors>
+    <year>1988</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Guns of the South</title>
+    <authors>
+      <author>
+        <first>Harry</first>
+        <last>Turtledove</last>
+      </author>
+    </authors>
+    <year>1992</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Lord Jim</title>
+    <authors>
+      <author>
+        <first>Joseph</first>
+        <last>Conrad</last>
+      </author>
+    </authors>
+    <year>1900</year>
+  </book>
+
+  <book medium="comic" type="nonfiction">
+    <title>The 9/11 Report: A Graphic Adaptation</title>
+    <authors>
+      <author>
+        <first>Sid</first>
+        <last>Jacobson</last>
+      </author>
+      <author>
+        <first>Ernie</first>
+        <last>Colon</last>
+      </author>
+    </authors>
+    <year>2006</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Abstract Algebra</title>
+    <authors>
+      <author>
+        <first>I. N.</first>
+        <last>Herstein</last>
+      </author>
+    </authors>
+    <year>1999</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>The Lives of the Artists</title>
+    <authors>
+      <author>
+        <first>Giorgio</first>
+        <last>Vasari</last>
+      </author>
+    </authors>
+    <year>1568</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Pride of Baghdad</title>
+    <authors>
+      <author>
+        <first>Brian K.</first>
+        <last>Vaughan</last>
+      </author>
+    </authors>
+    <year>2006</year>
+  </book>
+
+  <book medium="book" signed="signed" type="fiction">
+    <title>Fragile Things</title>
+    <authors>
+      <author>
+        <first>Neil</first>
+        <last>Gaiman</last>
+      </author>
+    </authors>
+    <year>2006</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>The Road to En-Dor</title>
+    <authors>
+      <author>
+        <first>E. H.</first>
+        <last>Jones</last>
+      </author>
+    </authors>
+    <year>1920</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Michelangelo and the Pope's Ceiling</title>
+    <authors>
+      <author>
+        <first>Ross</first>
+        <last>King</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Robot Dreams</title>
+    <authors>
+      <author>
+        <first>Isaac</first>
+        <last>Asimov</last>
+      </author>
+    </authors>
+    <year>1986</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Areas of My Expertise</title>
+    <authors>
+      <author>
+        <first>John</first>
+        <last>Hodgman</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Red Harvest</title>
+    <authors>
+      <author>
+        <first>Dashiell</first>
+        <last>Hammett</last>
+      </author>
+    </authors>
+    <year>1929</year>
+  </book>
+
+  <book medium="comic" type="nonfiction">
+    <title>Safe Area Gorazde</title>
+    <authors>
+      <author>
+        <first>Joe</first>
+        <last>Sacco</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Blankets</title>
+    <authors>
+      <author>
+        <first>Craig</first>
+        <last>Thompson</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Working Analysis</title>
+    <authors>
+      <author>
+        <first>Jeffery</first>
+        <last>Cooper</last>
+      </author>
+    </authors>
+    <year>2005</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Computer Networks</title>
+    <authors>
+      <author>
+        <first>Larry L.</first>
+        <last>Peterson</last>
+      </author>
+      <author>
+        <first>Bruce S.</first>
+        <last>Davie</last>
+      </author>
+    </authors>
+    <year>2003</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Sams Teach Yourself: PHP, MySQL, and Apache</title>
+    <authors>
+      <author>
+        <first>Julie C.</first>
+        <last>Meloni</last>
+      </author>
+    </authors>
+    <year>2007</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>TCP/IP Sockets in C</title>
+    <authors>
+      <author>
+        <first>Michael J.</first>
+        <last>Donahoo</last>
+      </author>
+      <author>
+        <first>Kenneth L.</first>
+        <last>Calvert</last>
+      </author>
+    </authors>
+    <year>2001</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Transmetropolitan: Back on the Street</title>
+    <series>Volume 1</series>
+    <issue>collects #1-3</issue>
+    <authors>
+      <author>
+        <first>Warren</first>
+        <last>Ellis</last>
+      </author>
+    </authors>
+    <year>1997</year>
+  </book>
+
+  <book medium="book" type="nonfiction">
+    <title>Brunelleschi's Dome</title>
+    <authors>
+      <author>
+        <first>Ross</first>
+        <last>King</last>
+      </author>
+    </authors>
+    <year>2000</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>Shadow and Claw</title>
+    <authors>
+      <author>
+        <first>Gene</first>
+        <last>Wolfe</last>
+      </author>
+    </authors>
+    <contains>
+      <book medium="book" type="fiction">
+        <title>The Shadow of the Torturer</title>
+        <year>1980</year>
+      </book>
+      <book medium="book" type="fiction">
+        <title>The Claw of the Conciliator</title>
+        <year>1981</year>
+      </book>
+    </contains>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Mouse Guard: Fall 1152</title>
+    <series>Volume 1</series>
+    <issue>collects #1-6</issue>
+    <authors>
+      <author>
+        <first>David</first>
+        <last>Peterson</last>
+      </author>
+    </authors>
+    <year>2007</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Kingdom Come</title>
+    <issue>collects #1-4</issue>
+    <authors>
+      <author>
+        <first>Mark</first>
+        <last>Waid</last>
+      </author>
+    </authors>
+    <year>1996</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Transmetropolitan: Lust for Life</title>
+    <series>Volume 2</series>
+    <issue>collects #4-12</issue>
+    <authors>
+      <author>
+        <first>Warren</first>
+        <last>Ellis</last>
+      </author>
+    </authors>
+    <year>1997-1998</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Transmetropolitan: Year of the Bastard</title>
+    <series>Volume 3</series>
+    <issue>collects #13-18</issue>
+    <authors>
+      <author>
+        <first>Warren</first>
+        <last>Ellis</last>
+      </author>
+    </authors>
+    <year>1998-1999</year>
+  </book>
+
+  <book medium="comic" type="fiction">
+    <title>Transmetropolitan: The New Scum</title>
+    <series>Volume 4</series>
+    <issue>collects #19-24</issue>
+    <authors>
+      <author>
+        <first>Warren</first>
+        <last>Ellis</last>
+      </author>
+    </authors>
+    <year>1999-2000</year>
+  </book>
+
+  <book medium="book" type="fiction">
+    <title>The Killer Angels</title>
+    <authors>
+      <author>
+        <first>Michael</first>
+        <last>Shaara</last>
+      </author>
+    </authors>
+    <year>1975</year>
+  </book>
+
+</bookshelf>

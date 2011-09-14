@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:template match="/">
+    <!-- DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" -->
+    <html>
+      <head>
+        <title>Ben's Bookshelf</title>
+        <link rel="shortcut icon" href="http://wam.umd.edu/~bzoller/images/tgicon.ico"/>
+        <link rel="stylesheet" href="styles.css" type="text/css" media="all" title="Normal" />
+      </head>
+      <body>
+        <h2>Ben's Bookshelf</h2>
+        <div style="font-size:small">
+          [<a href="#fiction">Fiction</a>] [<a href="#nonfiction">Nonfiction</a>]
+        </div>
+        <h3>
+          <a name="fiction">Fiction</a> (sorted by author)
+        </h3>
+        <xsl:for-each select="bookshelf/book[@type='fiction']">
+          <xsl:sort select="authors/author/last" data-type="text"/>
+          <xsl:sort select="descendant-or-self::year" data-type="text"/>
+          <xsl:apply-templates select="."/>
+        </xsl:for-each>
+        <br/>
+        Star Wars: (sorted by date)
+        <xsl:for-each select="bookshelf/book[@type='starWars']">
+          <xsl:sort select="year" data-type="number"/>
+          <xsl:apply-templates select="."/>
+        </xsl:for-each>
+        <br/>
+        <h3>
+          <a name="nonfiction">Nonfiction</a> (sorted by title)
+        </h3>
+        <xsl:for-each select="bookshelf/book[@type='nonfiction']">
+          <xsl:sort select="title"/>
+          <xsl:apply-templates select="."/>
+        </xsl:for-each>
+
+        <xsl:call-template name="tail"/>
+      </body>
+    </html>
+  </xsl:template>
+
+  <xsl:template match="book">
+    <p>
+      <xsl:apply-templates select="title"/>
+      <xsl:apply-templates select="series"/>
+      <xsl:apply-templates select="authors"/>
+      <xsl:apply-templates select="issue"/>
+      <xsl:apply-templates select="year"/>
+      <xsl:apply-templates select="@signed"/>
+      <xsl:apply-templates select="@medium"/>
+      <xsl:apply-templates select="contains"/>
+    </p>
+  </xsl:template>
+
+  <xsl:template match="title">
+    <b>
+      <xsl:value-of select="."/>
+    </b>
+  </xsl:template>
+
+  <xsl:template match="series">
+    (<i>
+      <xsl:value-of select="."/>
+    </i>)
+  </xsl:template>
+
+  <xsl:template match="authors">
+    <xsl:call-template name="editedBy"/>
+    <xsl:call-template name="by"/>
+  </xsl:template>
+
+  <xsl:template name="by">
+    <xsl:if test="author">
+      by <xsl:value-of select="author/first"/> <xsl:value-of select="author/last"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="editedBy">
+    <xsl:if test="editor">
+      edited by <xsl:value-of select="editor/first"/> <xsl:value-of select="editor/last"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="issue">
+    (<xsl:value-of select="."/>)
+  </xsl:template>
+
+  <xsl:template match="year">
+    (<xsl:value-of select="."/>)
+  </xsl:template>
+
+  <xsl:template match="@medium">
+    <xsl:if test=".='comic'"> [comic]</xsl:if>
+  </xsl:template>
+
+  <xsl:template match="@signed">
+    (<xsl:value-of select="."/>)
+  </xsl:template>
+
+  <xsl:template match="contains">
+    contains:
+    <ul>
+      <xsl:call-template name="subbook"/>
+    </ul>
+  </xsl:template>
+
+  <xsl:template name="subbook">
+    <xsl:for-each select="book">
+      <li>
+        <xsl:apply-templates select="title"/>
+        <xsl:apply-templates select="series"/>
+        <xsl:apply-templates select="author"/>
+        <xsl:apply-templates select="issue"/>
+        <xsl:apply-templates select="year"/>
+      </li>
+    </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template name="tail">
+    <p class="ctr">
+      <a href="index.html">Home</a>
+    </p>
+    
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      _uacct = "UA-344019-1";
+      urchinTracker();
+    </script>
+  </xsl:template>
+
+</xsl:stylesheet>
